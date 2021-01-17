@@ -36,7 +36,7 @@ public class ProductServiceController {
 		obj.add(almond);
 	}
 	
-	@GetMapping("products")
+	@GetMapping(path="products")
 	public List<Product> getProducts(){
 		return obj;
 	}
